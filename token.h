@@ -21,9 +21,8 @@ public:
 	int pos;
 	std::vector<token_t> tok;
 
-	Token();
-	token_t &get();
-	token_t &next();
+	token_t get();
+	token_t next();
 };
 
 #endif
